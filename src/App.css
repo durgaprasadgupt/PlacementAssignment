@@ -1,0 +1,165 @@
+.App {
+  text-align: center;
+}
+.heading{
+  height:200px;
+  width:300px;
+  background-color: red;
+}
+
+.App-logo {
+  height: 40vmin;
+  pointer-events: none;
+}
+
+@media (prefers-reduced-motion: no-preference) {
+  .App-logo {
+    animation: App-logo-spin infinite 20s linear;
+  }
+}
+
+.App-header {
+  background-color: #282c34;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: white;
+}
+
+.App-link {
+  color: #61dafb;
+}
+
+.main{
+  /* height:100vh;
+      width:100%; */
+      background-color:rgb(207, 205, 205);
+        min-height:100vh;
+        min-width: 100vw;
+      
+}
+
+.nav{
+  height:20vh;
+  width:100vw;
+  display: flex;
+  align-items: center;
+  background-color: rgb(207, 205, 205);
+  /* padding-left: 4vw; */
+  white-space: nowrap;
+  overflow: auto;
+  text-overflow: ellipsis;
+  /* margin-top: 20px; */
+}
+
+.content{
+  /* height: 70vh; */
+  width: 90vw;
+  background-color: white;
+  border: 1vw solid white;
+  border-radius: 7px;
+  margin: auto;
+  
+}
+
+.img{
+  padding-left: 4vw;
+  height: 10vh;
+  /* background-color:rgb(207, 205, 205) ; */
+}
+
+.text{
+  /* height: 10vh; */
+  padding-left: 2vw;
+  margin-top: -16px;
+}
+.text2{
+  /* padding-bottom: 10px; */
+  margin-top: -16px;
+  color: rgb(88 87 87);
+}
+
+
+
+.inputBox{
+  height: 6.5vh;
+  width:75vw;
+  padding-left: 15px;
+  font-weight: bolder ;
+  font-size: medium;
+  border: 0.2vw solid gray;
+  border-top-left-radius: 5px;
+  border-bottom-left-radius: 5px;
+}
+
+
+.buttonStyle{
+  height:7.8vh;
+  /* width:10vw; */
+  font-weight: 800;
+  /* font-size: 1rem; */
+  background-color: #0f0fff;
+  border: 0.4vw solid #0f0fff;
+  border-top-right-radius: 5px;
+  border-bottom-right-radius: 5px;
+  cursor: pointer;
+  padding-left: 30px;
+  padding-right: 30px;
+  color: white;
+}
+
+
+.card{
+  height:13vh;
+  width:93%;
+  /* background-color: red; */
+  border: 1px solid  #ddd6d6;
+  margin-top: 5vh;
+  display:flex;
+  align-items: center;
+  padding-left: 20px;
+}
+
+.circle{
+  height: 60%;
+  width:8vh;
+  border: 2px solid #ddd6d6;
+  
+  border-radius: 50%;
+  color: black;
+  font-weight: 650;
+  background-color: #9c9cd1;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.username{
+  height: 80%;
+  width: 85%;
+  margin-left: 15px;
+  padding-bottom: 20px;
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  /* background-color: #0f0fff; */
+}
+
+.delete{
+  height: 100%;
+  width:10%;
+  /* background-color: blue; */
+  display:flex;
+  align-items:center;
+  justify-content:center;
+  cursor:pointer;
+}
+
+.icon{
+  height:40%;
+  margin-bottom:10px;
+  /* margin-left:50px; */
+}
